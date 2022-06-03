@@ -7,21 +7,27 @@
  */
 int main(void)
 {
-	int x;
+	int digit0, digit1;
 
-	for (x = 0; x < 90; x++)
+	for (digit0 = 0; digit0 < 10; digit0++)
 	{
-		for ()
-		{
-			putchar((x / 10) + '0');
-			putchar((x % 10) + '0');
-		}
-		if (x != 89)
-		{
-		putchar(',');
-			putchar(' ')
-			}
-		}
+	for (digit1 = 0; digit1 < 10; digit1++)
+	{
+	if (digit0 == digit1 || digit0 > digit1)
+	continue;
+	else
+	putchar ((digit0 % 10) + '0');
+	putchar ((digit1 % 10) + '0');
+	if (digit0 == 8 && digit1 == 9)
+	{
+	}
+	else
+	{
+	putchar (',');
+	putchar (' ');
+	}
+	}
+	}
 	putchar('\n');
 	return (0);
 }
