@@ -11,18 +11,24 @@ int main(void)
 
 	for (digit0 = 0; digit0 < 10; digit0++)
 	{
+
 	for (digit1 = 0; digit1 < 10; digit1++)
 	{
+
 	if (digit0 == digit1 || digit0 > digit1)
 	continue;
+
 	else
 	putchar ((digit0 % 10) + '0');
 	putchar ((digit1 % 10) + '0');
+
 	if (digit0 == 8 && digit1 == 9)
 	{
 	}
+
 	else
 	{
+
 	putchar (',');
 	putchar (' ');
 	}
