@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *main -  1. I sometimes suffer from insomnia.
+ * print_alphabet -  1. I sometimes suffer from insomnia.
  * And when I can't fall asleep,
  * I play what I call the alphabet game
  * print_alphabet - prints the alphabet,
@@ -10,15 +9,13 @@
  */
 void print_alphabet(void)
 {
-	char ch;
+	int a;
 
-	ch = 'a';
-
-	while (ch <= 'z')
+	for (a = 'a'; a <= 'z' ; a++)
 	{
-		_putchar(ch);
-		ch++;
-	}
+		_putchar(a);
+
+}
 
 	_putchar('\n');
 }
