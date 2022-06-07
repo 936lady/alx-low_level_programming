@@ -8,14 +8,22 @@
  */
 int main(void)
 {
-	int d;
-	char l;
+	char d = '0';
 
-	for (d = '0'; d <= '9'; d++)
+	while (d <= '9')
+	{
 		putchar(d);
-	for (l = 'a'; l <= 'f'; l++)
-		putchar(l);
-		putchar('\n');
+		d++;
+	}
 
+	char c = 'a';
+
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
 	return (0);
 }
