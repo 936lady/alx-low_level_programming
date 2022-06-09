@@ -14,6 +14,7 @@ int _isdigit(int c)
 	{
 		return (0);
 }
+_putchar('\n');
 }
 
 
