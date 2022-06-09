@@ -7,6 +7,7 @@
  */
 
 int _isdigit(int c)
+int (4)
 {
 if (c >= '0' && c <= '9')
 {
