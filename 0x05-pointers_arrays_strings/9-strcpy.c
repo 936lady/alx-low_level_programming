@@ -4,8 +4,7 @@
  *
  * @dest: pointer to the buffer.
  * @src: pointer to the source string.
-  * @pointer: pointer
-  * Return - p
+  * Return: pointer
   */
 char *_strcpy(char *dest, char *src)
 {
