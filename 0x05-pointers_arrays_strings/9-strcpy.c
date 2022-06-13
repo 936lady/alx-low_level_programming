@@ -4,37 +4,18 @@
  *
  * @dest: pointer to the buffer.
  * @src: pointer to the source string.
- * Return: char
- */
+  * @pointer: pointer
+  * Return - p
+  */
 char *_strcpy(char *dest, char *src)
 {
-	int n;
-	int i;
+	int i = 0;
 
-	n = string_length(src);
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (*(src + i))
 	{
-		dest[i] = src[i];
+		*(dest + i) = *(src + i);
+		i++;
 	}
-	for (; i < n; i++)
-	{
-		dest[i] = '\0';
-	}
+	*(dest + i) = '\0';
 	return (dest);
-}
-
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }

@@ -3,30 +3,16 @@
 /**
  * puts2 - print every other character of a string.
  * @str: character
+ * Return: void
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < string_length(str); i += 2)
+	while (*(str + i))
 	{
-		_putchar(str[i]);
+		_putchar(*(str + i));
+		i = i + 2;
 	}
 	_putchar('\n');
-}
-
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }
