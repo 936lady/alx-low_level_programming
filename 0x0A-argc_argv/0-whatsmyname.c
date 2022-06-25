@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- *
- * @argc: Counts the number of parameters that go into main
- * @argv: Pointer of array of pointers containing strings entering main
+ * main - Write a program that prints its name,
+ * followed by a new line.
+ *0. It ain't what they call you, it's what you answer to
+ * @argc: Counts parameters
+ * @argv: String pointers
  * Return: Always 0 (Success)
  */
 
