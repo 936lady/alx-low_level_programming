@@ -3,7 +3,7 @@
 
 /**
  * main - prints all arguments it receives.
- * 2. The best argument against democracy is a 
+ * 2. The best argument against democracy is a
  * five-minute conversation with the average voter
  * @argc: parameters counter
  * @argv: string pointer
@@ -12,13 +12,9 @@
 int main(int argc, char **argv)
 {
 	int i;
-
-	if (argc > 0)
-	{
-		for (i = 0; i < argc; i++)
-		{
-			printf("%s\n", argv[i]);
-		}
-	}
-	return (0);
+for (i = 0; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
+return (0);
 }
