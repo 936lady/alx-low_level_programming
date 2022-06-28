@@ -1,5 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * str_concat - Write a function that concatenates two strings.
  * 2. He who is not courageous enough to take risks

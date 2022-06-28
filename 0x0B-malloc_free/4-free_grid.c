@@ -1,5 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * free_grid - frees 2D grid created by alloc_grid
  * 4. It's not bragging if you can back it up

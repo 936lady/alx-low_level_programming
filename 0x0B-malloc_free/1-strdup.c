@@ -1,5 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * _strdup - copy a string using malloc
  * 1. The woman who has no imagination has no wings
