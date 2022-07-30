@@ -1,13 +1,12 @@
-#include "main.h"
+#include "main.h"   /*0. Tread lightly, she is near*/
 #include <stdlib.h>
 
 /**
-*read_textfile - 0. Tread lightly, she is near
-*Write a function that reads a text file
-*and prints it to the POSIX standard output.
+* read_textfile -  reads a text file
 *
-*Return 0 or NULL
-*
+* @filename: pointer to the file name
+* @letters: number of letters to be read
+* Return: 0 or NULL
 **/
 
 ssize_t read_textfile(const char *filename, size_t letters)
