@@ -1,2 +1,0 @@
-Static and dynamic librarie
-
